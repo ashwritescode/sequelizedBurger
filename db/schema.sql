@@ -1,5 +1,5 @@
-CREATE DATABASE burgers_db;
-USE burgers_db;
+CREATE DATABASE sequelizedburgers_db;
+USE sequelizedburgers_db;
 
 CREATE TABLE burgers(
 id int AUTO_INCREMENT,
