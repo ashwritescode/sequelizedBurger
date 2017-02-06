@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "pink1204!!",
-    "database": "sequelizedburgers_db",
+    "database": "burgers_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
@@ -14,10 +14,7 @@
     "dialect": "mysql"
   },
   "production": {
-        "username": "ol71zulhyuinb8t1",
-        "password": "nufdxusylpw9rblci",
-        "database": "thy97jfuitd66i9e",
-        "host": "ehc1u4pmphj917qf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-        "dialect": "mysql"
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
   }
 }
