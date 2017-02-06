@@ -29,7 +29,7 @@ router.post('/burgers/create', function(req, res){
 	});
 });
 
-router.post('/burgers/update/:id', function(req, res){
+router.put('/burgers/update/:id', function(req, res){
 	db.Burger.update({
 		devoured: true,
 	},{
